@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-top">
+            <div class="header">
+                <h2>Quản lý môn học ngành CNTT</h2>
+            </div>
+            <hr>
+            <div class="input-container">
+                <div id="form-container">
+                    <div class="row">
+                        <label for="id-subject">Mã môn học*</label>
+                        <input type="text" name="id" id="id-subject">
+                    </div>
+                    <div class="row">
+                        <label for="name-subject">Tên môn học</label>
+                        <input type="text" name="name" id="name-subject">
+                    </div>
+                    <div class="row">
+                        <label for="credits">Số tín chỉ</label>
+                        <input type="number" name="credits" id="credits">
+                    </div>
+                    <div class="btn">
+                        <button id="btn-add">Thêm</button>
+                        <button class="btn-updates">Cập nhật</button>
+                        <button  id="btn-reset">Nhập lại</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-bottom">
+            
+            <div class="table-container">
+               
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã môn học</th>
+                        <th>Tên môn học</th>
+                        <th>Số tín chỉ</th>
+                        <th>Sửa/ Xóa</th>
+                    </tr>
+                      
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
